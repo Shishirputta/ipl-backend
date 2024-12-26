@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL PREDICTION</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    
+
+    <header >
+    
+    <div id="nav" style="border:3px solid rgb(25, 234, 245)">
+        <div class="navelements"><h5>home</h5></div>
+        <div class="navelements"><h5>about us</h5></div>
+        <div class="navelements"><h5>search</h5></div>
+    </div>
+    </header>
+    <main>
+        <h2>INPUT SCORES:</h2>
+    <form action="/" method="post">
+    <div id="scores">
+        <div>
+            <h4>Enter innings</h4>
+            <input type="number" name="innings" min="1" max="2" required>
+            <h4>batting team</h4>
+            <select class ="team" name="batting_team" required></select>
+            <h4>Enter Current Score</h4>
+            <input type="number" name="score" min="0" required>
+            <h4>Enter batter</h4>
+            <select  class="batter" name="batter" required></select>
+            <h4>Enter non-striker</h4>
+            <select  class="batter" name="non_striker" required></select>
+        </div>
+        <div>
+            <h4>Enter Number of Overs</h4>
+            <input type="number" name="over" min="1" max="20" required>
+            <h4>Enter Number of balls</h4>
+            <input type="number" name="ball" min="1" max="6" required>
+            <h4>Enter bowling team</h4>
+            <select class ="team" name="bowling_team" required></select>
+            <h4>Enter bowler</h4>
+            <select  id="bowler" name="bowler" required></select>
+            <h4>Enter crr</h4>
+            <input type="number" step="0.01" name="crr" required>
+        </div>
+        <div>
+            <h4>Enter venue</h4>
+            <select  id="venue" name="venue" required></select>
+            <h4>Enter toss winner</h4>
+            <select class ="team" name="toss_win" required></select>
+            <h4>Enter toss decision</h4>
+            <select  id="toss" name="toss" required></select>
+            <h4>Enter Number of Wickets Left</h4>
+            <input type="number" name="Wickets" min="0" max="10" required>
+        </div>
+    </div>
+    <button type="submit">PREDICT</button>
+    </form>
+    </div>
+        <h2>Recent Favourite</h2>
+        <div class="box">
+        <div id="k" style="margin: 5px;border: 3px solid rgb(201, 1, 251);width: 250px;height: 250px;">KKR</div>
+        <div id="r" style="margin: 5px;border: 3px solid rgb(255, 0, 0);width: 250px;height: 250px;">RCB</div>
+        <div id="m" style="margin: 5px;border: 3px solid rgb(0, 26, 255);width: 250px;height: 250px;">MI</div>
+        </div>
+    </main>
+<script src="javascripts/script.js">
+
+</script> 
+ 
+</body>
+</html>

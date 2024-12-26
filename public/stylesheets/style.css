@@ -1,0 +1,33 @@
+.box{
+  display: flex;
+  gap: 200px;
+}
+#nav{
+  display:flex;
+  justify-content: center;
+  gap: 200px;
+  background-color: rgb(16, 235, 235); 
+}
+#scores{
+  display: flex;
+  gap: 200px;
+}
+.navelements:hover{
+  background-color: rgb(235, 235, 235);
+
+}
+
+#r{
+  background-image: url("https://wallpapercave.com/wp/wp7461576.jpg");
+  background-size: cover;
+}
+
+#k{
+  background-image: url("https://tse4.mm.bing.net/th?id=OIP.BkWtcPdWnhN8_pW3W3E2XAHaHc&pid=Api&P=0&h=180");
+  background-size: cover;
+}
+
+#m{
+  background-image: url("https://tse4.mm.bing.net/th?id=OIP.ocoYdep0ZbPcMbjlIPhZ-gHaJ4&pid=Api&P=0&h=180");
+  background-size: cover;
+}

@@ -1,0 +1,43 @@
+[
+    { 
+      "title": "Summer of '69", 
+      "artist": "BryanAdams", 
+      "band": "BryanAdamsBand" 
+    },
+    { 
+      "title": "Everything I Do", 
+      "artist": "BryanAdams", 
+      "band": "BryanAdamsBand" 
+    },
+    { 
+      "title": "Run to You", 
+      "artist": "BryanAdams", 
+      "band": "BryanAdamsBand" 
+    },
+    { 
+      "title": "Ocean Eyes", 
+      "artist": "BillieEilish", 
+      "band": "Solo" 
+    },
+    { 
+      "title": "Let It Be", 
+      "artist": "TheBeatles", 
+      "band": "TheBeatles" 
+    },
+    { 
+      "title": "Hey Jude", 
+      "artist": "TheBeatles", 
+      "band": "TheBeatles" 
+    },
+    { 
+      "title": "Yesterday", 
+      "artist": "TheBeatles", 
+      "band": "TheBeatles" 
+    },
+    { 
+      "title": "Yellow Submarine", 
+      "artist": "TheBeatles", 
+      "band": "TheBeatles" 
+    }
+  ]
+  
